@@ -1,7 +1,7 @@
-#include <stdio.h> // ใช้สำหรับฟังก์ชัน printf
+#include <stdio.h>       // #include: Preprocessor Directive
 
-int main() {
-    int a = 10; // ประกาศตัวแปร a เป็นจำนวนเต็ม และกำหนดค่าเริ่มต้นเป็น 10
-    printf("a = %d", a); // แสดงค่าของตัวแปร a บนหน้าจอ
-    return 0; // คืนค่า 0 เพื่อบอกว่าโปรแกรมทำงานสำเร็จ
+int main() {        // int: keyword, min; identifier, (): Operator
+    printf("hello,\n");     // printf: identifier, (): operator, "Hello'\n": canstant
+    printf("C Tokens!\n");  // printf: identifier, (): operator, "C Tokens!\n": Constant
+    return 0;       // return: Keyword, 0: Constant, :; Operator
 }
